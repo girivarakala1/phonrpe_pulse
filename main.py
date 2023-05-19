@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import os
+import sqlDB
 
 def data_aggregated_transaction(clm, data, i, j, k):
 
@@ -192,6 +193,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+    sqlDB.main()
 
 
 
